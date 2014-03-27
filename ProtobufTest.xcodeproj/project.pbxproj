@@ -23,8 +23,7 @@
 		B093D20B18E424AD0071606C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B093D1EA18E424AD0071606C /* UIKit.framework */; };
 		B093D21318E424AD0071606C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B093D21118E424AD0071606C /* InfoPlist.strings */; };
 		B093D21518E424AD0071606C /* ProtobufTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B093D21418E424AD0071606C /* ProtobufTestTests.m */; };
-		B093D22218E428230071606C /* ikawa.proto in Resources */ = {isa = PBXBuildFile; fileRef = B093D22018E428230071606C /* ikawa.proto */; };
-		B093D22518E42C750071606C /* ikawa.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = B093D22318E42C750071606C /* ikawa.pb.cc */; };
+		B0C90F4618E480CB0021E922 /* machine.pb.cc in Sources */ = {isa = PBXBuildFile; fileRef = B0C90F4418E480CB0021E922 /* machine.pb.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,9 +59,8 @@
 		B093D21018E424AD0071606C /* ProtobufTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProtobufTestTests-Info.plist"; sourceTree = "<group>"; };
 		B093D21218E424AD0071606C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B093D21418E424AD0071606C /* ProtobufTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtobufTestTests.m; sourceTree = "<group>"; };
-		B093D22018E428230071606C /* ikawa.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ikawa.proto; sourceTree = "<group>"; };
-		B093D22318E42C750071606C /* ikawa.pb.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ikawa.pb.cc; sourceTree = "<group>"; };
-		B093D22418E42C750071606C /* ikawa.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ikawa.pb.h; sourceTree = "<group>"; };
+		B0C90F4418E480CB0021E922 /* machine.pb.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = machine.pb.cc; sourceTree = "<group>"; };
+		B0C90F4518E480CB0021E922 /* machine.pb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = machine.pb.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,9 +123,8 @@
 		B093D1EC18E424AD0071606C /* ProtobufTest */ = {
 			isa = PBXGroup;
 			children = (
-				B093D22018E428230071606C /* ikawa.proto */,
-				B093D22318E42C750071606C /* ikawa.pb.cc */,
-				B093D22418E42C750071606C /* ikawa.pb.h */,
+				B0C90F4418E480CB0021E922 /* machine.pb.cc */,
+				B0C90F4518E480CB0021E922 /* machine.pb.h */,
 				B093D1F518E424AD0071606C /* PBAppDelegate.h */,
 				B093D1F618E424AD0071606C /* PBAppDelegate.m */,
 				B093D1F818E424AD0071606C /* Main_iPhone.storyboard */,
@@ -248,7 +245,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B093D22218E428230071606C /* ikawa.proto in Resources */,
 				B093D1FD18E424AD0071606C /* Main_iPad.storyboard in Resources */,
 				B093D20218E424AD0071606C /* Images.xcassets in Resources */,
 				B093D1FA18E424AD0071606C /* Main_iPhone.storyboard in Resources */,
@@ -304,9 +300,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B093D22518E42C750071606C /* ikawa.pb.cc in Sources */,
 				B093D1F718E424AD0071606C /* PBAppDelegate.m in Sources */,
 				B093D20018E424AD0071606C /* PBViewController.mm in Sources */,
+				B0C90F4618E480CB0021E922 /* machine.pb.cc in Sources */,
 				B093D1F318E424AD0071606C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

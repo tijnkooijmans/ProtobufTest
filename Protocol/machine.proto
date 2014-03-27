@@ -1,4 +1,4 @@
-package ikawa;
+package machine;
 
 message MachineStatus {
   repeated float temps = 1;

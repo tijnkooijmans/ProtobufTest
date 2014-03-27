@@ -7,11 +7,11 @@
 //
 
 #import "PBViewController.h"
-#import "ikawa.pb.h"
+#import "machine.pb.h"
 #include <string.h>
 
 using namespace std;
-using namespace ikawa;
+using namespace machine;
 
 @interface PBViewController ()
 
@@ -65,7 +65,7 @@ using namespace ikawa;
 #pragma mark - AsyncSocket
 
 - (void)onSocketDidDisconnect:(AsyncSocket *)sock {
-    NSLog(@"Did disconnect");
+
     [sock connectToHost:@"127.0.0.1" onPort:10013 withTimeout:5 error:NULL];
 }
 

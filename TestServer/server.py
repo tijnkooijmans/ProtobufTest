@@ -3,7 +3,7 @@
 import SocketServer
 import time
 import binascii
-import ikawa_pb2
+import machine_pb2
 
 class MyTCPHandler(SocketServer.BaseRequestHandler):
     """
@@ -23,7 +23,7 @@ class MyTCPHandler(SocketServer.BaseRequestHandler):
             if (data):
                 print "received data: %s" % binascii.hexlify(data)
 
-                currentStatus = ikawa_pb2.MachineStatus()
+                currentStatus = machine_pb2.MachineStatus()
                 currentStatus.ParseFromString(data)
                 print currentStatus
 
