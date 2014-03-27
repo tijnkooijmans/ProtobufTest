@@ -1,0 +1,13 @@
+PODS:
+  - CocoaAsyncSocket (7.3.4)
+  - GoogleProtobuf (2.5.0)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket (~> 7.3)
+  - GoogleProtobuf (~> 2.5.0)
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 534d09416f992fd51efb23f534742ce70b3a7999
+  GoogleProtobuf: eafe6e09d135fc82d9bd65f7d0aedcafe0971754
+
+COCOAPODS: 0.29.0
